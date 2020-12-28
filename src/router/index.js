@@ -7,6 +7,13 @@ import Logo from '@/components/Logo'
 import Button from '@/components/Button'
 import InputBox from '@/components/InputBox'
 import Image from '@/components/Image'
+import Viewbind from '@/components/Viewbind'
+import Richtext from '@/components/Richtext'
+import Instructions from '@/components/Instructions'
+import Event from '@/components/Event'
+import Filter from '@/components/Filter'
+import Computed from '@/components/Computed'
+
 Vue.use(Router)
 
 export default new Router({
@@ -45,6 +52,31 @@ export default new Router({
       path:'/Image',
       name:'Image',
       component:Image
+    },
+    {
+      path:'/Viewbind',
+      name:'Viewbind',
+      component:Viewbind
+    },{
+      path:'/Richtext',
+      name:'Richtext',
+      component:Richtext
+    },{
+      path:'/Instructions',
+      name:'Instructions',
+      component:Instructions
+    },{
+      path:'/Event',
+      name:'Event',
+      component:Event
+    },{
+      path:'/Filter',
+      name:'Filter',
+      component:Filter
+    },{
+      path:'/Computed',
+      name:'Computed',
+      component:Computed
     }
   ]
 })
