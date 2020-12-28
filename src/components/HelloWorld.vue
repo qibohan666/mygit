@@ -9,7 +9,8 @@
     <div class="to" @click="topage('/Event')">事件处理</div>
     <div class="to" @click="topage('/Filter')">过滤器</div>
     <div class="to" @click="topage('/Computed')">计算属性</div>
-
+    <div class="to" @click="topage('/Watcher')">观察者</div>
+    <router-link class="to" to="/Controlrender">动态控制样式</router-link>
     <div>
       <span>{{ count }}</span>
       <button @click="countAdd()">count++</button>
@@ -182,6 +183,7 @@ a {
 }
 .hello{
   .to{
+    display: block;
     background: red;
     width: 200px;
     margin: 20px auto;

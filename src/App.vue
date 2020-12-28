@@ -7,7 +7,15 @@
 
 <script>
 export default {
-  name: 'App'
+  name: 'App',
+  watch:{
+    '$route':function(newV,oldV){
+            console.log('老路径:',oldV,'新路径:',newV);
+            if(newV.path=='/Logo'){
+              console.log('欢迎来到logo组件');
+            }
+        }
+  }
 }
 </script>
 

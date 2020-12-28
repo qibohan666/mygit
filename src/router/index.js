@@ -13,7 +13,8 @@ import Instructions from '@/components/Instructions'
 import Event from '@/components/Event'
 import Filter from '@/components/Filter'
 import Computed from '@/components/Computed'
-
+import Watcher from '@/components/Watcher'
+import Controlrender from '@/components/Controlrender'
 Vue.use(Router)
 
 export default new Router({
@@ -77,6 +78,14 @@ export default new Router({
       path:'/Computed',
       name:'Computed',
       component:Computed
+    },{
+      path:'/Watcher',
+      name:'Watcher',
+      component:Watcher
+    },{
+      path:'/Controlrender',
+      name:'Controlrender',
+      component:Controlrender
     }
   ]
 })
