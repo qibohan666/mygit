@@ -11,6 +11,7 @@
     <div class="to" @click="topage('/Computed')">计算属性</div>
     <div class="to" @click="topage('/Watcher')">观察者</div>
     <router-link class="to" to="/Controlrender">动态控制样式</router-link>
+    <router-link class="to" to="/Lifecycle">生命周期详解</router-link>
     <div>
       <span>{{ count }}</span>
       <button @click="countAdd()">count++</button>

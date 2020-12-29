@@ -15,6 +15,7 @@ import Filter from '@/components/Filter'
 import Computed from '@/components/Computed'
 import Watcher from '@/components/Watcher'
 import Controlrender from '@/components/Controlrender'
+import Lifecycle from '@/components/Lifecycle'
 Vue.use(Router)
 
 export default new Router({
@@ -86,6 +87,10 @@ export default new Router({
       path:'/Controlrender',
       name:'Controlrender',
       component:Controlrender
+    },{
+      path:'/Lifecycle',
+      name:'Lifecycle',
+      component:Lifecycle
     }
   ]
 })
