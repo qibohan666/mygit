@@ -12,6 +12,8 @@
     <div class="to" @click="topage('/Watcher')">观察者</div>
     <router-link class="to" to="/Controlrender">动态控制样式</router-link>
     <router-link class="to" to="/Lifecycle">生命周期详解</router-link>
+    <router-link class="to" to="/Usevuex">vuex使用</router-link>
+    <h1>vuex-num:{{$store.state.num}}</h1>
     <div>
       <span>{{ count }}</span>
       <button @click="countAdd()">count++</button>

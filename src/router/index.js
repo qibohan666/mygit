@@ -16,6 +16,8 @@ import Computed from '@/components/Computed'
 import Watcher from '@/components/Watcher'
 import Controlrender from '@/components/Controlrender'
 import Lifecycle from '@/components/Lifecycle'
+import Usevuex from '@/components/Usevuex'
+
 Vue.use(Router)
 
 export default new Router({
@@ -91,6 +93,10 @@ export default new Router({
       path:'/Lifecycle',
       name:'Lifecycle',
       component:Lifecycle
+    },{
+      path:'/Usevuex',
+      name:'Usevuex',
+      component:Usevuex
     }
   ]
 })
