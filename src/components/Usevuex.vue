@@ -24,6 +24,7 @@
 
         <h1>{{$store.state.time}}</h1>
         <button @click="handle">handle</button>
+        <h1>{{kazu}}</h1>
     </div>
 </template>
 
@@ -41,6 +42,9 @@ export default {
     },
     computed: {
         ...mapState(['num']),
+        ...mapState({
+            kazu:(state)=>state.deck
+        }),
         //使用别名
         ...mapState({qbh:'num'}),
         ...mapGetters(['numberhandle'])

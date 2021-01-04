@@ -17,6 +17,10 @@ import Watcher from '@/components/Watcher'
 import Controlrender from '@/components/Controlrender'
 import Lifecycle from '@/components/Lifecycle'
 import Usevuex from '@/components/Usevuex'
+import EventA from '@/components/EventA'
+import EventB from '@/components/EventB'
+import Father from '@/components/Father'
+import Child from '@/components/Child'
 
 Vue.use(Router)
 
@@ -97,6 +101,22 @@ export default new Router({
       path:'/Usevuex',
       name:'Usevuex',
       component:Usevuex
+    },{
+      path:'/EventA',
+      name:'EventA',
+      component:EventA
+    },{
+      path:'/EventB',
+      name:'EventB',
+      component:EventB
+    },{
+      path:'/Father',
+      name:'Father',
+      component:Father
+    },{
+      path:'/Child',
+      name:'Child',
+      component:Child
     }
   ]
 })

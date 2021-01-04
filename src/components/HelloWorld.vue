@@ -13,6 +13,9 @@
     <router-link class="to" to="/Controlrender">动态控制样式</router-link>
     <router-link class="to" to="/Lifecycle">生命周期详解</router-link>
     <router-link class="to" to="/Usevuex">vuex使用</router-link>
+    <router-link class="to" to="/EventA">EventBus</router-link>
+    <router-link class="to" to="/Father">父子组件传值</router-link>
+
     <h1>vuex-num:{{$store.state.num}}</h1>
     <div>
       <span>{{ count }}</span>

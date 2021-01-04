@@ -11,7 +11,8 @@ export default new Vuex.Store({
         number:99.99,
         code:0,
         name:'灰流丽',
-        time:'00:00'
+        time:'00:00',
+        deck:'codetalk'
     },
     //存储同步方法
     mutations:{
